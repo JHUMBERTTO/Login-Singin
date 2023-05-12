@@ -6,7 +6,7 @@ import { AuthProvider } from "./context/authContext"
 
 const App = () => {
   return (
-    <div className="bg-gray-500 h-screen text-white flex">
+    <div className="bg-gray-500 h-screen text-black flex">
       <AuthProvider>
         <Routes>
           <Route path="/" element={<Home/>}/>
