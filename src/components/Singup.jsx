@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import {useAuth} from '../context/authContext'
 import { useNavigate } from 'react-router-dom'
+import Alert from './Alert'
 
 const Singup = () => {
   const [user, setUser] = useState({
@@ -29,7 +30,7 @@ const Singup = () => {
 
   return (
     <div>
-      {error && <p>{error}</p>}
+      {error && <Alert message={error}/>}
       <form onSubmit={handleSubmit}>
         <label htmlFor="email">Email</label>
         <input 

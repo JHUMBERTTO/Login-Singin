@@ -1,8 +1,6 @@
-import React from 'react'
-
-const Alert = () => {
+const Alert = ({message}) => {
   return (
-    <div>Alert</div>
+    <span>{message}</span>
   )
 }
 
