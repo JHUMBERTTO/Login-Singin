@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import {useAuth} from '../context/authContext'
 import { useNavigate } from 'react-router-dom'
 
-const Register = () => {
+const Singup = () => {
   const [user, setUser] = useState({
     email: '',
     password: '',
@@ -51,4 +51,4 @@ const Register = () => {
   )
 }
 
-export default Register
+export default Singup

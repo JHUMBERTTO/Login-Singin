@@ -1,17 +1,22 @@
 import { Routes, Route } from "react-router-dom"
 import Home  from './components/Home'
 import Login  from './components/Login'
-import Register  from './components/Register'
+import Singup  from './components/Singup'
 import { AuthProvider } from "./context/authContext"
+import { ProtectedRoute } from './components/ProtectedRoute'
 
 const App = () => {
   return (
     <div className="bg-gray-500 h-screen text-black flex">
       <AuthProvider>
         <Routes>
-          <Route path="/" element={<Home/>}/>
+          <Route path="/" element={
+            <ProtectedRoute>
+              <Home/>
+            </ProtectedRoute>
+          }/>
           <Route path="/login" element={<Login/>}/>
-          <Route path="/register" element={<Register/>}/>
+          <Route path="/singup" element={<Singup/>}/>
         </Routes>
       </AuthProvider>
     </div>
