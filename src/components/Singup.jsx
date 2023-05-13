@@ -32,6 +32,7 @@ const Singup = () => {
     <div>
       {error && <Alert message={error}/>}
       <form onSubmit={handleSubmit}>
+        <p className='text-gray-300'>Already A Member?</p>
         <label htmlFor="email">Email</label>
         <input 
           type="email"

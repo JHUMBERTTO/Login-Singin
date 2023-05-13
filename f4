@@ -1,0 +1,53 @@
+[33mcommit cd3db3658d4611b4cf5621f45175e3bbb24cc4e3[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m)[m
+Author: Jhumberto <jhumbertto@gmail.com>
+Date:   Fri May 12 12:45:11 2023 -0600
+
+    Google Login & Alert Component
+
+[33mcommit f6a33bcfef31932b71f4f9bce23b2c238ce1e495[m
+Author: Jhumberto <jhumbertto@gmail.com>
+Date:   Fri May 12 11:14:57 2023 -0600
+
+    Login Logic & Protected Route
+
+[33mcommit 8cd9d083f44a23221d4e799563207ddc70fe9208[m
+Author: Jhumberto <jhumbertto@gmail.com>
+Date:   Fri May 12 10:09:54 2023 -0600
+
+    Singup Logic
+
+[33mcommit 4988f824d5b39763e00b652386ef199e46fcb827[m
+Author: Jhumberto <jhumbertto@gmail.com>
+Date:   Thu May 11 23:26:13 2023 -0600
+
+    Refactor Context
+
+[33mcommit 6e99019e967c5e5ce04e28fdef2df302587ffc4d[m
+Author: Jhumberto <jhumbertto@gmail.com>
+Date:   Thu May 11 19:49:29 2023 -0600
+
+    Config Context
+
+[33mcommit 6a8d427402c5b18d5ec70a28ffd7db22eed36715[m
+Author: Jhumberto <jhumbertto@gmail.com>
+Date:   Thu May 11 16:22:54 2023 -0600
+
+    Config React-Router-Dom
+
+[33mcommit ffc1e0ba8b145b5065bfac0034e5bf832733093a[m
+Author: Jhumberto <jhumbertto@gmail.com>
+Date:   Thu May 11 16:22:21 2023 -0600
+
+    Components
+
+[33mcommit 62e732d3a34d82df5906039c18a7846c9acf3999[m
+Author: Jhumberto <jhumbertto@gmail.com>
+Date:   Thu May 11 15:46:13 2023 -0600
+
+    Config Firebase
+
+[33mcommit f45cb8b703669b1d318c96eb06afe226d5dfe6c0[m
+Author: Jhumberto <jhumbertto@gmail.com>
+Date:   Thu May 11 13:54:29 2023 -0600
+
+    Initialize project
