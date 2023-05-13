@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import {useAuth} from '../context/authContext'
-import { useNavigate } from 'react-router-dom'
+import { Link, useNavigate } from 'react-router-dom'
 import Alert from './Alert'
 
 const Login = () => {
@@ -39,17 +39,18 @@ const Login = () => {
   
 
   return (
-      <div className='w-full max-w-xs m-auto'>
+      <div className='w-full max-w-md m-auto'>
       {error && <Alert message={error}/>}
       <form onSubmit={handleSubmit} className='bg-gray-700 shadow-lg rounded-3xl px-8 pt-6 pb-8 mb-4'>
-        <h1 className='text-white font-bold text-5xl mb-16'>Login.</h1>
+        <h1 className='text-white font-bold text-5xl mb-10'>Login.</h1>
+        <p className='text-white mb-10'>Don't have an Account? <Link to="/singup" className='text-sky-600'>Create One</Link></p>
         <div className="mb-4">
         <label htmlFor="email" className='block text-white  text-sm font-fold mb-2'>Email</label>
         <input 
           type="email"
           name='email' 
           placeholder='youremail@company.com'
-          className='appearence-none rounded-full w-full py-2 px-3 text-white placeholder:text-white caret-white bg-gray-500 focus:outline-none focus:shadow-outline'
+          className='appearence-none rounded-full w-full py-2 px-3 text-white placeholder:text-white caret-white bg-gray-500 focus:outline-sky-600'
           onChange={handleChange}
         />
         </div>
@@ -60,7 +61,7 @@ const Login = () => {
           name='password' 
           id='password'
           onChange={handleChange}
-          className='appearence-none rounded-full w-full py-2 px-3 text-white placeholder:text-white caret-white bg-gray-500 focus:outline-none focus:shadow-outline'
+          className='appearence-none rounded-full w-full py-2 px-3 text-white placeholder:text-white caret-white bg-gray-500 focus:outline-sky-600'
           placeholder='******'
           />
         </div>
